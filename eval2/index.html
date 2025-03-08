@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Fashion CloudStore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="top-bar">
+            <ul>
+                <li><a href="#">India</a></li>
+                <li><a href="#">Track Order</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Download App</a></li>
+            </ul>
+        </div>
+        <div class="main-nav">
+            <div class="logo">
+                <img src="data:image/jpeg;base64,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" alt="The Souled Store">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">WOMEN</a></li>
+                    <li><a href="#">MEN</a></li>
+                    <li><a href="#">KIDS</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <img src="search-icon.png" alt="Search">
+                <img src="user-icon.png" alt="User">
+                <img src="wishlist-icon.png" alt="Wishlist">
+                <img src="cart-icon.png" alt="Cart">
+            </div>
+        </div>
+        <div class="category-nav">
+            <ul>
+                <li><a href="#">NOMAD <sup>HOT</sup></a></li>
+                <li><a href="#">Topwear</a></li>
+                <li><a href="#">Bottomwear</a></li>
+                <li><a href="#">Bestsellers</a></li>
+                <li><a href="#">Sneakers</a></li>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Accessories <sup>NEW</sup></a></li>
+                <li><a href="#">Themes</a></li>
+                <li><a href="#">Membership</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src=" https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/banner-images/Home_Page_2_GHCVqXE.jpg?format=webp&w=1500&dpr=1.3" alt="Image">
+    </section>
+
+    
+
+
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>New Arrivals</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1739512994_5204844.jpg?format=webp&w=360&dpr=1.3" alt="Product 1">
+                <h3>Baggy Fit</h3>
+                <p>$45.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1741341196_7154477.jpg?format=webp&w=360&dpr=1.3" alt="Product 2">
+                <h3>Isro: Logo</h3>
+                <p>$59.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1741345234_2786880.jpg?format=webp&w=360&dpr=1.3" alt="Product 3">
+                <h3>Disney: Slow Sunday</h3>
+                <p>$79.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1741358933_1028222.jpg?format=webp&w=360&dpr=1.3" alt="Product 3">
+                <h3>TSS Originals: Cloud 9</h3>
+                <p>$79.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Categories</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Tshirts_copy_2_CxFs6tQ.jpg?format=webp&w=480&dpr=1.3" alt="Product 1">
+                <h3>Over-Sized T-shirts</h3>
+                <p>$45.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Tops_copy_kSUeUkf.jpg?format=webp&w=480&dpr=1.3" alt="Product 2">
+                <h3>Tops</h3>
+                <p>$59.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/jackets_n_more_vMI4YkZ.jpg?format=webp&w=480&dpr=1.3" alt="Product 3">
+                <h3>Jackets & more</h3>
+                <p>$79.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Bottomwear_copy_QURrxic.jpg?format=webp&w=480&dpr=1.3" alt="Product 4">
+                <h3>Pants</h3>
+                <p>$39.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Dresses_copy_b4DnNmu.jpg?format=webp&w=480&dpr=1.3" alt="Product 4">
+                <h3>Dresses</h3>
+                <p>$39.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/sneakers_copy_S2Qrmtv.jpg?format=webp&w=480&dpr=1.3" alt="Product 4">
+                <h3>Sneakers</h3>
+                <p>$39.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Jenas_copy_bJT8qdF.jpg?format=webp&w=480&dpr=1.3" alt="Product 4">
+                <h3>Jeans</h3>
+                <p>$39.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Accessories_copy_1_pQZqjsh.jpg?format=webp&w=480&dpr=1.3" alt="Product 4">
+                <h3>Accessories</h3>
+                <p>$39.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Shirts_copy_1_A6BCYFA.jpg?format=webp&w=480&dpr=1.3" alt="Product 4">
+                <h3>Shirts</h3>
+                <p>$39.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Inovation of the Week</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Collection-tile-acid-wash-7th-march-1_w1eRB5Q.jpg?format=webp&w=480&dpr=1.3" alt="Product 1">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Collection-tile-acid-wash-7th-march-2a.jpg?format=webp&w=480&dpr=1.3" alt="Product 2">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Collection-tile-acid-wash-7th-march-3_uF2LTIL.jpg?format=webp&w=480&dpr=1.3" alt="Product 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Trending now</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Gilmore_Girls-_You_Have_Been_Gilmored.jpg?format=webp&w=360&dpr=1.3" alt="Product 1">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Korean_Pants-_Rich_Black_6HB7QYB.jpg?format=webp&w=360&dpr=1.3" alt="Product 2">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Textured_Shirt-_Floral_Bloom_NrAZFe3.jpg?format=webp&w=360&dpr=1.3" alt="Product 3">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Hello_Kitty-_Kawaii.jpg?format=webp&w=360&dpr=1.3" alt="Product 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Shop by fit</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/collection-tile-fit2.jpg?format=webp&w=480&dpr=1.3" alt="Product 1">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/collection-tile-fit-copy-4_8eZ1FRP.jpg?format=webp&w=480&dpr=1.3" alt="Product 2">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/relaxed-fit-tile.jpg?format=webp&w=480&dpr=1.3" alt="Product 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Top Summer picks</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/tp8_e5Mgv1F.jpg?format=webp&w=360&dpr=1.3" alt="Product 1">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/tp5_4g3Bh83.jpg?format=webp&w=360&dpr=1.3" alt="Product 2">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/tp6_3eXKp13.jpg?format=webp&w=360&dpr=1.3" alt="Product 3">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/tp3.jpg?format=webp&w=360&dpr=1.3" alt="Product 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Curated collection</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Artboard_2_19VdQKJ.jpg?format=webp&w=480&dpr=1.3" alt="Product 1">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Artboard_6_1_9BiUbaZ.jpg?format=webp&w=480&dpr=1.3" alt="Product 2">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Artboard_1_K1AFJ1z.jpg?format=webp&w=480&dpr=1.3" alt="Product 3">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Shop by color</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/color-tile-white_6YngqYt.jpg?format=webp&w=480&dpr=1.3" alt="Product 1">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/color-tile-blue_1_kg1Wg81.jpg?format=webp&w=480&dpr=1.3" alt="Product 2">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/color-tile-pink_2_1S8eq40.jpg?format=webp&w=480&dpr=1.3" alt="Product 3">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/color-tile-black_1_yamxAh9.jpg?format=webp&w=480&dpr=1.3" alt="Product 3">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Shop by occassion</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/2_1_IqwE3Zs.jpg?format=webp&w=480&dpr=1.3" alt="Product 1">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/4_1_uuovsXw.jpg?format=webp&w=480&dpr=1.3" alt="Product 2">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/3_1_eiTFz7U.jpg?format=webp&w=480&dpr=1.3" alt="Product 3">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Member benefits</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/1_1_QYs2yH7.jpg?format=webp&w=480&dpr=1.3" alt="Product 1">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/4_Vc7HGmn.jpg?format=webp&w=480&dpr=1.3" alt="Product 2">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/3_7Jasuuv.jpg?format=webp&w=480&dpr=1.3" alt="Product 3">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Shop by fandom</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/fandom-tile.jpg?format=webp&w=480&dpr=1.3" alt="Product 1">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/disney.jpg?format=webp&w=480&dpr=1.3" alt="Product 2">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/hello-kitty_H0cnSzf.jpg?format=webp&w=480&dpr=1.3" alt="Product 3">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Also shop for</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/men_KRwcg9f.jpg?format=webp&w=480&dpr=1.3" alt="Product 1">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/perfume_oaEPAZ7.jpg?format=webp&w=480&dpr=1.3" alt="Product 2">
+            </div>
+            <div class="product">
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/collection-tile-2-copy_KVUaSfN.jpg?format=webp&w=480&dpr=1.3" alt="Product 3">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Products Section -->
+    <section class="hero">
+        <h2>Why choose Us?</h2>
+                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/banner-images/Homepage_banner_1.jpg?format=webp&w=1500&dpr=1.3" alt="Product 1">
+            </div>
+        </div>
+    </section>
+
+
+
+    
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-top">HOMEGROWN INDIAN BRAND</div>
+        <div class="footer">
+            <h3>Over <strong>6 Million</strong> Happy Customers</h3>
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>NEED HELP</h3>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Track Order</a>
+                    <a href="#">Returns & Refunds</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">My Account</a>
+                </div>
+                <div class="footer-column">
+                    <h3>COMPANY</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Gift Vouchers</a>
+                    <a href="#">Community Initiatives</a>
+                </div>
+                <div class="footer-column">
+                    <h3>MORE INFO</h3>
+                    <a href="#">T&C</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Sitemap</a>
+                    <a href="#">Blogs</a>
+                </div>
+                <div class="footer-column">
+                    <h3>STORE NEAR ME</h3>
+                    <a href="#">Vadodara</a>
+                    <a href="#">Mumbai</a>
+                    <a href="#">Gandhinagar</a>
+                    <a href="#">Jodhpur</a>
+                </div>
+            </div>
+            <div class="footer-apps">
+                <h3>EXPERIENCE THE SOULED STORE APP</h3>
+                <img src="https://tss-static-images.gumlet.io/icons/play-store.png" alt="Google Play">
+                <img src="https://tss-static-images.gumlet.io/icons/app-store.png" alt="App Store">
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <img src="" alt="Facebook">
+                <img src="instagram.png" alt="Instagram">
+                <img src="twitter.png" alt="Twitter">
+                <img src="youtube.png" alt="YouTube">
+            </div>
+            <div class="footer-bottom">
+                <p>100% Secure Payments | Shipping Partners</p>
+                <p>Popular Searches: T-Shirts, Hoodies, Jackets, Sneakers</p>
+                <p>© The Souled Store 2025-26</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

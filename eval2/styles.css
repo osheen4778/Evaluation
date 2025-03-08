@@ -1,0 +1,283 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Header */
+/*header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: red;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.cart img {
+    width: 30px;
+}*/
+
+
+
+/* General Reset */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: red;
+    color: white;
+    padding: 10px 0;
+    text-align: right;
+    font-size: 14px;
+}
+
+.top-bar ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding-right: 20px;
+}
+
+.top-bar ul li a {
+    color: white;
+}
+
+/* Main Navigation */
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 5%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 50px;
+}
+
+.main-nav nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.main-nav nav ul li {
+    padding: 10px;
+}
+
+.main-nav nav ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.main-nav nav ul li a.active {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Header Icons */
+.icons img {
+    width: 24px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* Category Navigation */
+.category-nav {
+    background-color: white;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 5%;
+}
+
+.category-nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.category-nav ul li a {
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+
+.category-nav ul li a sup {
+    color: red;
+    font-size: 10px;
+}
+
+
+/* Products Section */
+.products {
+    text-align: center;
+    padding: 40px 10%;
+}
+
+.products h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: white;
+    padding: 2px;
+    border-radius: 1px;
+    text-align: center;
+    width: 220px;
+    margin: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.30);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product p {
+    color: #888;
+    font-size: 16px;
+}
+
+.product button {
+    background: #222;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.product button:hover {
+    background: #ff5a5f;
+}
+
+/* Membership Section */
+.membership {
+    text-align: center;
+    padding: 40px 10%;
+}
+
+.membership img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.membership-text {
+    margin-top: 20px;
+}
+
+.membership h2 {
+    font-size: 28px;
+}
+
+.membership p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+
+/* Footer Styles */
+.footer-top {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer h3 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-column {
+    min-width: 200px;
+}
+
+.footer-column a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 5px 0;
+}
+
+.footer-apps img {
+    width: 120px;
+    margin: 10px;
+}
+
+.footer-social img {
+    width: 30px;
+    margin: 5px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
